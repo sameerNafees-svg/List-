@@ -1,10 +1,10 @@
-body {
-  background-color: #f5f5dc; /* light beige background */
-  color: #333333; /* dark text color */
+body {background: #cbc43e;
+background: linear-gradient(90deg, rgba(193, 188, 85, 0.45) 0%, 
+rgb(163, 199, 87) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
 h1 {
-  background-color: darkgreen; /* heading background */
+  background-color: rgb(199, 190, 65); /* heading background */
   color: white; /* text color */
   text-align: center;
   padding: 10px;

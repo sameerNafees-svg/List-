@@ -1,0 +1,37 @@
+body {
+  background-color: #f5f5dc; /* light beige background */
+  color: #333333; /* dark text color */
+}
+
+h1 {
+  background-color: darkgreen; /* heading background */
+  color: white; /* text color */
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  background-color: #ffd700; /* golden color */
+  color: maroon;
+  padding: 5px;
+}
+
+ol, ul {
+  background-color: #ffffff; /* white background */
+  color: #000000; /* black text */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+a {
+  color: blue; /* link color */
+  background-color: #e0e0e0; /* light gray background */
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: lightblue; /* changes when hovered */
+}

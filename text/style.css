@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('Jaro-Regular-VariableFont_opsz.ttf') format('truetype');
+}
+
+/* Body styling */
+body {
+    font-family: 'CustomFont';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+@font-face {
+    font-family: 'IM Fell DW Pica';
+    src: url('IMFellDWPica-Italic.ttf') format('truetype');
+}
+
+/* Main heading */
+h1 {
+    font-family: 'IM Fell DW Pica', serif;
+    color: #b87915;
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* Subheadings */
+h2 {
+    font-family: 'IM Fell DW Pica', serif;
+    color: #385a8d;
+    margin: 24px 16px 8px 16px;
+}
+
+/* Paragraph text */
+p {
+    color: #666;
+    line-height: 1.6;
+    margin: 16px;
+}
+
+/* Links */
+a {
+  color: rgb(145, 16, 225);              /* normal color */
+  text-decoration: none;    /* removes underline */
+}
+
+a:hover {
+  color: red;               /* when mouse hovers */
+  text-decoration: underline;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    height: 20px;
+    background-color: #ccc;
+    margin: px 0;
+}
